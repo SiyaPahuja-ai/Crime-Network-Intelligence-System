@@ -10,6 +10,12 @@ Run:  python3 src/pipeline.py
 from __future__ import annotations
 import json
 import os
+import sys
+
+# Ensure src/ directory is in sys.path for direct script and package execution
+SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+if SRC_DIR not in sys.path:
+    sys.path.insert(0, SRC_DIR)
 
 from ingestion import IngestionManager, JSONFileConnector
 from entity_extraction import extract_entities, co_occurrence_edges, RuleBasedNER

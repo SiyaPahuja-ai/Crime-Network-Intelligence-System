@@ -1,8 +1,18 @@
-@"
+# Dependencies
 node_modules/
+frontend/node_modules/
 venv/
 .venv/
+
+# Environment and secrets
 .env
+*.env
+
+# Python bytecode and caches
 __pycache__/
 *.pyc
-"@ | Set-Content .gitignore
+*.pyo
+.pytest_cache/
+
+# Logs
+*.log

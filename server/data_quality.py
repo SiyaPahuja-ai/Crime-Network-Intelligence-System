@@ -5059,7 +5059,8 @@ class DataQualityService:
         from server.service import IntelligenceService
         expected_sha = "61ba8f572e8c368fce47452c7e31ac3a921f544fd0a2408fb119350c6e7e02a6"
         sample_path = Path("data/sample_records.json")
-        actual_sha = hashlib.sha256(sample_path.read_bytes()).hexdigest() if sample_path.exists() else ""
+        raw_bytes = sample_path.read_bytes() if sample_path.exists() else b""
+        actual_sha = hashlib.sha256(raw_bytes.replace(b"\r\n", b"\n")).hexdigest() if raw_bytes else ""
         data = IntelligenceService.get_data()
         ee = IntelligenceService.get_evidence_engine()
         te = IntelligenceService.get_temporal_engine()

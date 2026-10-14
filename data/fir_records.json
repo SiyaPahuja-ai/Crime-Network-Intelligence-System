@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storage_type": "file_backed_json",
-  "updated_at": "2026-09-24T10:30:00.000000+00:00",
+  "updated_at": "2026-10-14T16:54:11.426407+00:00",
   "epistemic_limitation": "File-backed persistence layer for operational FIR intake records. Not equivalent to an ACID distributed enterprise database; does not support multi-process concurrent write locking.",
   "records": [
     {
@@ -42,6 +42,9 @@
         "incident_category": "Financial Fraud",
         "summary": "Cheating and fraudulent diversion of investment funds via shell bank accounts."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Complainant alleges that the accused dishonestly induced multiple retail investors to deposit Rs. 45 Lakhs promising real estate allocation, subsequently siphoning funds into unregistered shell accounts.",
       "legal_provisions": [
         {
@@ -55,9 +58,16 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-101",
-        "linked_entity_ids": ["ENT-LKO-01"],
-        "linked_evidence_ids": ["EVD-LKO-01"]
-      }
+        "linked_entity_ids": [
+          "ENT-LKO-01"
+        ],
+        "linked_evidence_ids": [
+          "EVD-LKO-01"
+        ]
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-LKO-002",
@@ -97,6 +107,9 @@
         "incident_category": "Criminal Conspiracy",
         "summary": "Conspiracy to issue forged land allotment letters and misappropriate public deposits."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Information received regarding an organized group conspiring to produce fake development authority clearance notices and collect booking advances.",
       "legal_provisions": [
         {
@@ -110,7 +123,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-102"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-LKO-003",
@@ -150,6 +166,9 @@
         "incident_category": "Document Fraud",
         "summary": "Use of forged identity documents and counterfeit stamps to execute unauthorized bank transfers."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Accused submitted forged PAN, Aadhaar, and corporate resolution certificates to open collateral credit line.",
       "legal_provisions": [
         {
@@ -163,7 +182,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-103"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-LKO-004",
@@ -203,6 +225,9 @@
         "incident_category": "Property Crime",
         "summary": "Dishonest misappropriation of commercial inventory entrusted to warehouse logistics agent."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Commercial goods worth Rs. 12 Lakhs entrusted for regional transit were misappropriated and diverted to unauthorized retail outlets.",
       "legal_provisions": [
         {
@@ -216,7 +241,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-104"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-LKO-005",
@@ -256,6 +284,9 @@
         "incident_category": "Organised Crime",
         "summary": "Extortion syndicate demanding protection money from bullion merchants via untraceable VOIP calls."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Multiple jewellers reported systemic extortion threats demanding monthly protection payments under coercion.",
       "legal_provisions": [
         {
@@ -269,7 +300,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-105"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-BLY-001",
@@ -309,6 +343,9 @@
         "incident_category": "Theft",
         "summary": "Theft of commercial transit cargo from goods carrier parked at Bareilly Transport Hub."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Sealed consignment of electrical appliances valued at Rs. 6.5 Lakhs stolen from parked container vehicle overnight.",
       "legal_provisions": [
         {
@@ -322,7 +359,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-201"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-BLY-002",
@@ -362,6 +402,9 @@
         "incident_category": "Financial Fraud",
         "summary": "Unauthorized collection of micro-finance deposits through fraudulent mobile banking app."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Victims induced to deposit small savings into fake digital wallet claiming interest returns, followed by closure of digital operation.",
       "legal_provisions": [
         {
@@ -375,7 +418,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-202"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-BLY-003",
@@ -415,6 +461,9 @@
         "incident_category": "Extortion",
         "summary": "Extortion threats and coercion targeted against timber factory proprietor."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Accused threatened industrial unit owner with physical harm and operational disruption if protection tribute was not paid.",
       "legal_provisions": [
         {
@@ -428,7 +477,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-203"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-BLY-004",
@@ -468,6 +520,9 @@
         "incident_category": "Breach of Trust",
         "summary": "Criminal breach of trust involving unauthorized sale of pledged bank security assets."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Society treasury custodian entrusted with pledged gold securities illegally hypothecated the assets to private moneylenders.",
       "legal_provisions": [
         {
@@ -481,7 +536,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-204"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-BLY-005",
@@ -521,6 +579,9 @@
         "incident_category": "Stolen Property",
         "summary": "Receiving and retaining stolen electronic goods and copper wiring in commercial godown."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Raid conducted on scrap godown recovered 450kg stolen electrical transformer copper coils known to be stolen utility property.",
       "legal_provisions": [
         {
@@ -534,7 +595,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-205"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-STP-001",
@@ -574,6 +638,9 @@
         "incident_category": "Property Crime",
         "summary": "Dishonest misappropriation of agricultural equipment entrusted for cooperative distribution."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Cooperative agricultural pumpsets worth Rs. 4.8 Lakhs misappropriated and sold privately by store custodian.",
       "legal_provisions": [
         {
@@ -587,7 +654,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-301"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-STP-002",
@@ -627,6 +697,9 @@
         "incident_category": "Financial Fraud",
         "summary": "Fraudulent inducement of local sugar mill suppliers with counterfeit payment drafts."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Sugarcane growers provided bogus payment bank slips for crop supply, resulting in financial loss of Rs. 18 Lakhs.",
       "legal_provisions": [
         {
@@ -640,7 +713,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-302"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-STP-003",
@@ -680,6 +756,9 @@
         "incident_category": "Criminal Conspiracy",
         "summary": "Criminal conspiracy to siphoning government subsidy tokens using dummy beneficiary records."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Conspiracy unraveled involving submission of fake land holding records to collect fertilizer subsidies.",
       "legal_provisions": [
         {
@@ -693,7 +772,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-303"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-STP-004",
@@ -733,6 +815,9 @@
         "incident_category": "Theft",
         "summary": "Theft of highway construction machinery components from overnight staging yard."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Heavy hydraulic breaker units and diesel generators stolen from highway construction site.",
       "legal_provisions": [
         {
@@ -746,7 +831,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-304"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     },
     {
       "fir_id": "FIR-2024-UP-STP-005",
@@ -786,6 +874,9 @@
         "incident_category": "Document Fraud",
         "summary": "Executing forged revenue deeds and fake property transfer papers to claim agricultural holdings."
       },
+      "victims": [],
+      "witnesses": [],
+      "property_evidence": [],
       "narrative": "Accused created forged revenue stamps and fake mutation orders to unlawfully transfer 12 bigha agricultural land.",
       "legal_provisions": [
         {
@@ -799,7 +890,10 @@
       ],
       "intelligence_links": {
         "case_id": "CR-UP-305"
-      }
+      },
+      "audit_trail": [],
+      "epistemic_guardrail": "FIR records are statutory intake allegations submitted for police investigation. In accordance with Indian criminal jurisprudence, an FIR is not substantive evidence of guilt and cannot be treated as verified proof of conspiracy, syndication, or culpability.",
+      "epistemic_notice": "FIR records reflect reported complaints and initial police registration. They do not constitute judicial determination of guilt."
     }
   ]
 }
