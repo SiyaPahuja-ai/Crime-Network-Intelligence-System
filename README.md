@@ -520,7 +520,9 @@ The backend contains a built-in adversarial test harness:
 
 ---
 
-## 16. Current Limitations & Roadmap
+## 16. Known Limitations vs Production Architecture
+
+The current system is an investigative reference architecture and decision-support prototype. Below is an explicit comparison between the current implementation and enterprise-grade production specifications:
 
 | Area | Current Implementation (Reference Architecture) | Planned Production Upgrade |
 | :--- | :--- | :--- |
@@ -534,15 +536,32 @@ The backend contains a built-in adversarial test harness:
 
 ---
 
-## 17. Contribution Guidelines & License
+## 17. Project Roadmap & Planned Upgrades
 
-### Contributing
+1. **Persistent Graph Store**: Add an optional Neo4j connector module with parameterized Cypher queries to handle million-node subgraphs.
+2. **Deep Learning Entity Extraction**: Integrate Hugging Face token classification pipelines alongside deterministic regex rules for narrative extraction.
+3. **Multi-Tenant Access Control**: Implement JWT/OAuth2 role-based authorization with audit logging for law enforcement compliance.
+4. **Automated Dossier Generation**: Add headless PDF report rendering with cryptographic hash seals for judicial chain-of-custody.
+5. **Real-Time Stream Processing**: Support Kafka consumer listeners for live CDR and ANPR telemetric feeds.
+
+---
+
+## 18. Contribution Guidelines
+
 Contributions to improve analytical accuracy, add synthetic test fixtures, or optimize graph rendering are welcome:
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/analytical-improvement`.
+1. Fork the repository on GitHub.
+2. Create a dedicated feature branch: `git checkout -b feature/analytical-improvement`.
 3. Verify that all 143 data quality tests pass: `DataQualityService.run_robustness_tests()`.
-4. Ensure `npm run lint` and `npm run build` exit with 0 errors.
-5. Submit a pull request with a detailed description of changes.
+4. Ensure `npm run lint` and `npm run build` exit cleanly with 0 errors.
+5. Commit your changes with descriptive, conventional commit messages.
+6. Submit a pull request detailing the purpose, test evidence, and affected modules.
 
-### License
-This project is open-source software licensed under the **[MIT License](LICENSE)**.
+---
+
+## 19. License & Maintainer Information
+
+- **Software License**: This project is open-source software licensed under the **[MIT License](LICENSE)**.
+- **Project Repository**: [https://github.com/SiyaPahuja-ai/Crime-Network-Intelligence-System](https://github.com/SiyaPahuja-ai/Crime-Network-Intelligence-System)
+- **Primary Maintainer**: Siya Pahuja ([SiyaPahuja-ai](https://github.com/SiyaPahuja-ai))
+- **Inquiries & Security Reports**: Please open an issue in the repository for bug reports or security disclosures.
+
